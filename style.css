@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+  margin: 0;
+  width: 100%;
+  background-image: linear-gradient(rgb(210, 202, 202), rgba(115, 105, 105, 0.3));
+  background-size: cover;
+}
+
+hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.17)), url("https://cdn.hsnstore.com/blog/wp-content/uploads/2019/11/black-friday-hsn-suplementos-online.jpg");
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+hero h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #F9F3F4;
+  font-size: 500%;
+  font-style:italic;
+  text-shadow: 0px 0px 300px #000;
+  margin: 0;
+}
+
+.subtitulo {
+  border-radius: 9px;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 135%;
+  padding: 10px 20px;
+  border: solid #ffffff 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.informacion {
+  display: flex;
+  flex-direction: column;
+}
+
+.informacion p {
+  line-height: 210%;
+  text-align: justify;
+  margin: 3%;
+  font-family: sans-serif;
+}
+.info1, .info2, .info3{
+  margin: 3rem;
+}
+
+.informacion h2 {
+  margin: 3%;
+}
+
+#btn-menu {
+  display: none;
+}
+
+
+header {
+  width: 100%;
+  display: inline-flex;
+  background: linear-gradient(to left, #fc8d00, #fe6100);
+}
+
+header label {
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-right: 1px solid #fff;
+}
+
+header label:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.menu ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu li:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.menu li a {
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.btnFix{
+    position: fixed;
+    border-radius: 20px;
+    bottom:20px;
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    background: #ffa800 url('./img/arrowup.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenido{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.contenido hr{
+  width: 70%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border: solid 1px #000000;
+}
+
+
+
+#btnSubs{
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  color:white;
+  padding: 1em;
+  right: 1em;
+  top:0.2em;
+  border-radius: 20px;
+
+}
+
+p {
+  font-size: 100%;
+  line-height: 160%;
+}
+
+header label {
+  display: block;
+  border-right: none;
+}
+
+.menu {
+  background: linear-gradient(to left, #fc8d00, #fe6100);
+  position: absolute;
+  width: 50%;
+  margin-left: -70%;
+  transition: all 0.5s;
+  top: 8%;
+}
+
+.menu ul {
+  flex-direction: column;
+}
+
+.menu li {
+  border-top: 1px solid;
+}
+
+#btn-menu:checked~.menu {
+  margin: 0;
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(to left, #fc8d00, #fe6100);
+}
+
+.footer-center {
+  padding: 1rem;
+}
+
+.footer-center table tr td {
+  padding: 0.5rem;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icons a i {
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.footer-icons {
+  padding-top: 5%;
+}
+
+footer p {
+  padding-top: 0.5rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.formulario form input:invalid, textarea:invalid {
+  border-color: red;
+}
+
+.formulario form input:valid, textarea:valid {
+  border-color: green;
+}
+
+.formulario {
+  margin: 6rem 0 10rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.formulario form {
+  border-radius: 20px;
+  padding: 2rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to left, #fc8d00, #fe6100);
+}
+
+#bt-form {
+  margin-top: 5px;
+  width: 30%;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.articulos {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+
+}
+
+h1 {
+  text-align: center;
+  margin: 5rem 0 5rem 0;
+}
+
+.resenas {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.resena, .articulo {
+  background-color: #e98825;
+  text-align: center;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 20px;
+  width: 20rem;
+}
+
+.articulo img {
+  border-radius: 20px;
+}
+
+.articuloint {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20rem;
+}
+
+#mrArticulos , #cambiarOpcion{
+  font-size: 1.2rem;
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  background-color: rgba(252, 129, 0, 0.78);
+  box-shadow: 2px white;
+}
+.resenatabla , .resenatabla tr td, .resenatabla tr{
+  border: solid 1px black;
+  padding: 1rem;
+}
+.resenatabla{
+  background-color: #e98825;
+}
+.resenatabla td{
+  background-color: white;
+}
+
+
+
+@media (min-width:576px) and (max-width:768px) {
+  .articulos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .articulo{
+    width: 15rem;
+  }
+  .articuloint{
+    width: 10rem
+  }
+  .informacion{
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+  .info1 , .info2, .info3{
+    margin-left: 15%;
+    width: 70%;
+  }
+}
+
+
+@media (min-width:768px) {
+  header label {
+    display: none;
+    border-right: none;
+  }
+
+  .menu {
+    display: inline-flex;
+    width: 90%;
+    margin-left: 5%;
+    top: 0%;
+  }
+
+  .menu ul {
+    flex-direction: row;
+  }
+
+  .menu ul li {
+    border-top: none;
+  }
+
+  #btn-menu {
+    display: none;
+  }
+
+  .informacion {
+    display: grid;
+  }
+
+  .informacion h2 {
+    grid-row: 1;
+  }
+
+  .informacion p {
+    grid-row: 2
+  }
+
+  .info1, .info2, .info3{
+    margin: 1rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: linear-gradient(to left, #fc8d00, #fe6100);
+    padding: 0.5rem;
+  }
+
+  .footer-center {
+    width: 33%;
+    padding: 1em;
+  }
+
+  .footer-center table tr td {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .footer-center table tr td i {
+    font-size: 2rem;
+  }
+
+  .footer-left {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-icons a i {
+    font-size: 2rem;
+    padding-left: 2rem;
+  }
+
+  .footer-icons {
+    padding-top: 5%;
+  }
+
+  footer p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .formulario {
+    padding: 2rem 0 2rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formulario form {
+    border-radius: 20px;
+    padding: 2rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to left, #fc8d00, #fe6100);
+  }
+}

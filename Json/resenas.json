@@ -1,0 +1,50 @@
+{"resenas":
+  [{"resena":[
+    {"nombre":"Rafaa"},
+    {"fecha":"20/01/2021"},
+    {"imagen":"./img/5estrellas.png"},
+    {"descripcion":"Atención al cliente envidiable. Tuve un problema con el envío. Rápidamente me respondieron y me lo solucionaron."}]
+  },
+  {"resena":[
+    {"nombre":"Pedro JAAA."},
+    {"fecha":"01/12/2017"},
+    {"imagen":"./img/5estrellas.png"},
+    {"descripcion":"primera vez que pido y no será la última. el precio imbatible y el pedido lo hice un domingo por la tarde y el martes por la mañana ya lo tenía, de 10."}]
+  },
+  {"resena":[
+    {"nombre":"Juan Jesús"},
+    {"fecha":"02/05/2019"},
+    {"imagen":"./img/5estrellas.png"},
+    {"descripcion":"Muy contento con esta página de nutrición deportiva, sinceramente calidad precio"}]
+  },
+  {"resena":[
+    {"nombre":"Sergio J."},
+    {"fecha":"04/07/1978"},
+    {"imagen":"./img/5estrellas.png"},
+    {"descripcion":"impresiona la agilidad del pedido ,muy bien por hsn store , respecto al producto calidad medio que , el formato es un poco.... ``inaguantable, ya que a la mínima se abre con el tiempo ,por muy bien que lo cierres ,el sabor también para los que somo un poco ``inaguantable también esta regular, pero por el precio , le damos un [ok]"}]
+  },
+  {"resena":[
+    {"nombre":"Luisma G."},
+    {"fecha":"08/10/2010"},
+    {"imagen":"./img/5estrellas.png"},
+    {"descripcion":"Todo llegó correctamente y de un día para otro"}]
+  },
+  {"resena":[
+    {"nombre":"Anónimo"},
+    {"fecha":"10/10/2020"},
+    {"imagen":"./img/5estrellas.png"},
+    {"descripcion":"Rápido y bien."}]
+  },
+  {"resena":[
+    {"nombre":"Anónimo"},
+    {"fecha":"19/12/2020"},
+    {"imagen":"./img/5estrellas.png"},
+    {"descripcion":"Todo muy bien"}]
+  },
+  {"resena":[
+    {"nombre":"Anónimo"},
+    {"fecha":"22/09/1999"},
+    {"imagen":"./img/5estrellas.png"},
+    {"descripcion":"Barato y rápido."}]
+  }]
+}
