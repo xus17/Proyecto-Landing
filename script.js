@@ -204,7 +204,7 @@ function cambiarTestimonios(lista) {
 
 setInterval(function() {
   valoresTestimonios()
-}, 5000);
+}, 10000);
 
 //Desabilitar los campos del formulario
 
