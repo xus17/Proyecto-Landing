@@ -6,4 +6,7 @@
 - Jquery
 - CSS/FlexBox
 - HTML5
+- Ajax
+- Javascript
+- JSON
 
