@@ -1,7 +1,7 @@
 # Proyecto-Landing de la marca de suplementos alimenticios HSN
 
-### Enlace -> https://xus17.github.io/Proyecto-Landing/
-
+### URL repositorio github -> https://github.com/xus17/Proyecto-Landing
+### URL repositorio en producción -> https://xus17.github.io/Proyecto-Landing/
 <h3>Cabecera</h3>
 En ella esta el logo principal de la pagina web con un menu que redirecciona a diferentes partes de la página web, y un boton que nos lleva al formulario.
 
