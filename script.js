@@ -1,4 +1,4 @@
-var perra = true;
+var cambio = true;
 
 //Funcion que maqueta y saca los articulos del JSON
 
@@ -47,16 +47,16 @@ $(document).ready(function() {
         .fadeIn(2000);
 })
 
-//Funcion que le da la opcion a la variable perra de cambiar a true o false para
+//Funcion que le da la opcion a la variable cambio de cambiar a true o false para
 //llamar a los testimonios ya sea para tabla o individuales
 
 $("#cambiarOpcion").click(function() {
-  if (perra == true) {
-    perra = false;
+  if (cambio == true) {
+    cambio = false;
     valoresTestimonios();
     $('#cambiarOpcion').text("Cambiar a individuales");
   } else {
-    perra = true;
+    cambio = true;
     valoresTestimonios();
     $('#cambiarOpcion').text("Cambiar a tabla");
   }
@@ -97,7 +97,7 @@ function cambiarTestimonios(lista) {
       }
     }
   } while (d == 0);
-  if (perra) {
+  if (cambio) {
     for (var i = 0; i < 3; i++) {
       $('<div>', {
         'class': 'resena',
@@ -301,7 +301,7 @@ $("#mrArticulos").click(function() {
   xhttp.send();
 });
 
-// Obtener Localizacion
+// Obtener Localizacion que me a ayudado Rafa con su API del tiempo
 
 const API_KEY = "15b4b878cd394bc48085757bd1f8b472";
 navigator.geolocation.getCurrentPosition(success, error);
