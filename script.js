@@ -1,5 +1,9 @@
 var cambio = true;
-valoresTestimonios();
+
+window.onload = function() {
+  valoresTestimonios();
+};
+
 //Funcion que maqueta y saca los articulos del JSON
 
 $(document).ready(function() {
