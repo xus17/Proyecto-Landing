@@ -23,6 +23,7 @@ En el tenemos una imagen que ocupa el 100% de la vista principal con un titulo y
   
   <h3>Extras</h3>
   Se le da a la página web una visualización con contrastes grises, naranjas y negros que dan una armonía que incitan al cliente a quedarse mas de una hora en ella con  un modelo responsive en el que se podrá ver desde cualquier dispositivo ya sea móvil, tablet y ordenador.
+  Se le añade iconos al lado del título.
   
 ## Lenguajes Utilizados
 - Jquery
